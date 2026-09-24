@@ -1,0 +1,41 @@
+## To design:
+- **NEW FIELD**
+	- sales_order_id
+		- saves the external id of  the record created in the external provider
+	- delivery status (determine the best name)
+		- srs has delivery statuses which needs to be tracked 
+		- ideal if an array and can record the info like timestamp of update etc
+		- if needed can have 2 fields: one to store the status transaction array
+		- one to store the current delivery status so filters can be easier
+		- evaluate best approach
+- **THE FLOW**
+	- Trigger status: Send to Vendor
+	- Action: Create a PO in external system (SRS in this case)
+	- pre create po do:
+		- price validation:
+			- compare prices of items in zuper po and price of products in external system
+			- if any discrepancy found then throw info to frontend that we are replacing zuper price with the external system price
+			- once use confirmation from frontend is received
+			- update the prices and proceed with PO creation
+	- two cases for PO creation:
+		- sync :
+			- success: store the sales order id in sales order id field, send success to frontend
+			- error: retain the previous status of send to vendor and send error response to frontend
+		- async:
+			- success/error might not be immediately apparent. 
+			- if error might get response immeditaly (this to be analysed)
+			- success might come later in the form of webhook
+			- analyse what is the best approach for async case
+			- it should follow the same pattern as sync
+	- Invoice Created:
+		- once order is invoiced, we will get intimation via webhook (in case of srs)
+		- fetch the invoice pdf and attach to status metadata(explore what this means in current codebase)
+	- Delivery Status
+		- delivery status changes will be received via webhook
+		- subsequently update zuper delivery status field (mentioned above)
+	- Vendor Approved Status
+		- based on webhook intimation from srs, we need to update the zuper PO status to vendor approved 
+		- analyse the best flow for this 
+
+
+- Also analyse if i am missing anything apart from the above mentioned items

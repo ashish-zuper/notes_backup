@@ -1,0 +1,31 @@
+- https://projects.zoho.com/portal/zuperinc#taskdetail/1832517000005681151/1832517000008334489/1832517000008909786
+	- Custom UI NOT NEEDED
+	- Can be converted to automation
+	- Create a new custom field for Job called Invoice Numbers
+	- Create automation to update this custom field when invoice is created
+	- Use customization Option in v3 to show this custom field column in listing page
+- https://projects.zoho.com/portal/zuperinc#taskdetail/1832517000005681151/1832517000008334489/1832517000009103057
+	- Not possible to bring same experience in v3
+	- Can do:
+		- Have a button in breadcrumbs bar which will open a modal to show the discounts added to parts
+- https://projects.zoho.com/portal/zuperinc#taskdetail/1832517000005681151/1832517000008334489/1832517000009341137
+	- This feature is supported in v3 natively
+- https://projects.zoho.com/portal/zuperinc#taskdetail/1832517000005681151/1832517000008334489/1832517000009341151
+	- Feasible in v3
+- https://projects.zoho.com/portal/zuperinc#taskdetail/1832517000005681151/1832517000008334489/1832517000009342285
+	- Feasible in v3
+- https://projects.zoho.com/portal/download/zuperinc#taskdetail/1832517000005681151/1832517000008334489/1832517000008909778
+	-  Not possible to bring same experience in v3
+	- Will have to suggest using Custom Field for dropdown Invoice Prefix Selection or Automate this process based on the customer scenario
+- https://projects.zoho.com/portal/download/zuperinc#taskdetail/1832517000005681151/1832517000008334489/1832517000009467022
+	- Feasible in v3
+- https://projects.zoho.com/portal/zuperinc#taskdetail/1832517000005681151/1832517000005693116/1832517000008093263
+	- Not possible to bring same experience in v3
+	- Will need to check with product for alternative solution 
+	- Proposed Solution:
+		- FE to multiply the quantity by 2 for two way manually 
+- https://projects.zoho.com/portal/zuperinc#taskdetail/1832517000005681151/1832517000005693116/1832517000008184035
+	-  Not possible to bring same experience in v3
+	- Will need to check with product for alternative solution 
+	- Proposed Solution:
+		- FE to multiply the quantity by 2 for two way manually 

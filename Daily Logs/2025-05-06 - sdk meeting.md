@@ -1,0 +1,7 @@
+- disable prefix field 
+- scaling issue with sdk modal
+- pseudo class not working on buttons
+- credits/receivables product task
+- button show issues
+- copy custom fields during navigation
+- get for association in new pages

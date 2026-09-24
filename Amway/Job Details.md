@@ -1,0 +1,6 @@
+- pre event 
+- frontend release for locale api
+- transfer and return
+	- remove user input from checklist for location
+	- get location from job custom field
+	- use add activity api to add a job activity for both return and transfer

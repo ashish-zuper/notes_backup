@@ -1,0 +1,3 @@
+- what should happen if order creation failed
+- vendor accepted status from web
+		- 

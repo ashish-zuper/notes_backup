@@ -1,0 +1,11 @@
+- Orders
+	- request Review the created orders and confirm is all ok or any required information missing
+- Possible to customize rate limits as per usage? 
+- availability API reliability concerns. 
+	- mentioned to use one item per request. need to clarify if she meant one item per per array object or one obj per request
+	- recommended API to use for showing availability at branch as last call she mentioned this API might not be ideal for live customer feedback
+	- how recent is the availability data. can we cache for 24hrs
+- any batching limitations on pricing API
+	- 50 per call
+- Updates on the catalog API issue. Need to upload full catalog 
+- Production Readiness. Any bestpractices etc

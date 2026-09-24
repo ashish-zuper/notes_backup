@@ -1,0 +1,11 @@
+## Prerequisites 
+- Docker 
+	- rabbitmq container with exposed port in docker
+- Access to the following repos:
+	- https://bitbucket.org/vijay15/zuper_custom_services/src/master/
+	- https://bitbucket.org/vijay15/zuper-integrations/src/master/
+- Zuper Integrations (private apps) repo locally installed in system
+	- Setup the config (yml)
+	- Setup environment vars for the INTEGRATION_CONFIG
+	- mysql + client for DB actions
+	- Create local instance of zuper integrations repo

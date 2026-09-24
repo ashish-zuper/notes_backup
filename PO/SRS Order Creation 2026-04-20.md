@@ -1,0 +1,63 @@
+- PO - SRS
+	- **supplier_order_ref** : 
+		- field to store the ref id of the supplier (order number)
+		- In SRS there are 2 fields:
+			- "PONumber": "PON-58117", 
+			- "orderNumber": 20731732
+		- Do we need to store both in Zuper? or just orderNumber? PONumber is not required for APIs
+		- ---
+			- already in plan to sales order id
+			- PONumber : map to zuper PO number
+	-  delivery_time_enum
+		- deliveryWindow field in SRS
+		- SRS accepts only AM | PM | ANYTIME | SPECIAL_REQUEST
+		- Do we need to record this?
+		- --
+			- already available
+
+	- sourceSystem
+		- required field for order creation in SRS
+		- should we hardcode this value?
+		- --
+			- hardcode to ZUPER
+	- customerCode
+		- need more info on this value
+		- --
+			- accountNumber
+	- accountNumber
+		- need more info
+		- --
+			- duplicate of customerCode
+	- order creation failure
+		- what should we do in this case?
+		- shall we store the error msg in PO schema?
+		- we can provide a retry option in case of failure
+		- need to understand the reliability of SRS API to check if this feature is needed
+		- --
+			- throw error to user
+			- revert to original status
+- ORDER CREATION FLOW
+	- triggers: Send to Vendor
+	- action: create PO
+	- once created successfully move status to sent to vendor
+		- how will the order be created async/sync?
+		- how to find the customer from the po creation webhook
+		- zuper status flow in the case of order creation failure.
+	- move to vendor rejected in case of failure
+- 
+- What is the flow for invoice creation from order in SRS?
+	- will this be done manually?
+	- there is orderNumber in invoice : need to confirm if this info will be received in webhook 
+	- there is only a single webhook for invoice update. need to confirm if it will be thrown during create as well
+	- at what stage/statud of invoice do we fetch the pdf and attach to zuper PO?
+		- store the attachment in po status meta
+- What is a customer in SRS context?
+- in order update event(webhook from srs), there is not order number shown in the docs. Need to confirm if orderNumber will be available if not need to plan how to connect to zuper PO
+- During order creation, 
+	- if any inconsistency in zuper product price and SRS price is noticed, do we need to automatically update zuper master with SRS latest?
+		- update product vendor catalog price 
+		- what happens if there is a missmatch in price of PO created and the current price in their system
+	- Submit Order API form SRS responds with : orderID
+		- need to confirm if same as orderNumber if not need to figure out how to fetch order details using orderID
+	- poNumber required for order creation in SRS needs to be sent from our end as per the API docs. Is there any convention we should follow for this? should this be a configurable value?
+- Docs mention a sync and async way to create orders. But there is no details as to how to create an order sync or async 

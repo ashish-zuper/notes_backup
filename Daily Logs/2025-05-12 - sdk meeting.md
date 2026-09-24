@@ -1,0 +1,4 @@
+- event for iframe loaded
+- error after iframe closses
+- ![[Pasted image 20250512135017.png]]
+- how to avoid error: Invocation request timeout

@@ -1,0 +1,4 @@
+- Trigger : New Job 
+- Check if there is a hubspot ticket id in custom fields
+- If not no operation
+- ![[LI5-T5.png]]

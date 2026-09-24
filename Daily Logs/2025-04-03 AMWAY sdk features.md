@@ -1,0 +1,2 @@
+- event for status roll back
+- feature to disable custom fields

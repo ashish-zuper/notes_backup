@@ -1,0 +1,5 @@
+- [x] Change customer category uid in create customer in netsuite 
+- [x] Customer first name last name logic to be updated 
+- [x] Add contract number to the recurring job title
+- [ ] service request is not getting created - job status update
+- [ ] add line items to auto generated invoices in draft (script) 

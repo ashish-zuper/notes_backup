@@ -1,0 +1,3 @@
+- show the job account number as well in the branch page
+- shingles - family items
+- instead of avg price show the max price 

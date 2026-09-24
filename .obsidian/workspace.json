@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "963299d946648045",
+    "type": "split",
+    "children": [
+      {
+        "id": "4532ff94b18afbe8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd44f95f5b27f7fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Logs/2026-09-11.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-11"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "796403d6ebbfcc7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8846eec85100f71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7314cc9dbeb30df",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c85ecd1f5bd7fd82",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bf8c788a03c67fa8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "84669ac59414ac0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f21506f4eaa265d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d93f8a2f3989c602",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily Logs/2026-09-11.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a7f89d0022f36f98",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Daily Logs/2026-09-11.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "f75b8fa22ecdf6a7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "30a4cb7f084b8d47",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "104cb70e53fde823",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily Logs/2026-09-11.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "dd44f95f5b27f7fd",
+  "lastOpenFiles": [
+    "Daily Logs/ABC Meeting - 2026-07-23.md",
+    "Daily Logs/2026-09-11.md",
+    "Daily Logs/2026-09-10.md",
+    "Daily Logs/2026-09-09.md",
+    "Daily Logs/2026-09-08.md",
+    "Daily Logs/2026-08-28.md",
+    "Daily Logs/2026-08-27.md",
+    "Daily Logs/2026-08-25.md",
+    "Daily Logs/2026-08-24.md",
+    "Daily Logs/2026-08-21.md",
+    "Daily Logs/2026-08-20.md",
+    "Daily Logs/2026-08-19.md",
+    "Daily Logs/2026-08-18.md",
+    "Daily Logs/2026-08-13.md",
+    "Daily Logs/2026-08-12.md",
+    "Daily Logs/2026-08-11.md",
+    "Daily Logs/2026-08-07.md",
+    "Daily Logs/2026-08-05.md",
+    "Daily Logs/2026-08-03.md",
+    "Daily Logs/2026-07-29.md",
+    "Daily Logs/2026-07-27.md",
+    "Daily Logs/2026-07-24.md",
+    "Daily Logs/2026-07-23.md",
+    "Daily Logs/2026-07-22.md",
+    "Daily Logs/2026-07-20.md",
+    "Daily Logs/2026-07-17.md",
+    "Daily Logs/OneDrive_1_9-24-2026 2",
+    "Daily Logs/OneDrive_1_9-24-2026",
+    "Daily Logs/OneDrive_1_9-24-2026.zip",
+    "workflow-builder",
+    "Weifeild",
+    "townhall",
+    "Task Solutions",
+    "Source/Pasted image 20240801113824.png",
+    "Source",
+    "sdk",
+    "Roofing Templates - v2",
+    "Images/Pasted image 20251023180938.png",
+    "Images/Pasted image 20251023180808.png",
+    "Images/Pasted image 20250805150226.png",
+    "Images/Pasted image 20250805150104.png",
+    "Images/Pasted image 20250805145909.png",
+    "Images/Pasted image 20250805143838.png",
+    "Images/Pasted image 20250805143639.png",
+    "Images/Pasted image 20250624175624.png",
+    "Images/Pasted image 20250515131324.png"
+  ]
+}

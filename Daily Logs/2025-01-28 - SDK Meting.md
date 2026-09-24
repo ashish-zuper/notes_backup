@@ -1,0 +1,1 @@
+- Inform Musharaff regarding getTeams  sdk

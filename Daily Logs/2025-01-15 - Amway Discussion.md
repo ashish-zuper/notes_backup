@@ -1,0 +1,10 @@
+- partial match of sku
+- additional option to select asset without update
+- if serial number not matching only show create asset
+- add additional option to select asset without update
+- make full row selectable 
+- search abo not showing zuper customer
+- if product owner auto fill abo and party id
+- make them non mandatory for this case
+- css improvements 
+- remove job schedule autofill

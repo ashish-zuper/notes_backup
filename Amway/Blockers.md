@@ -1,0 +1,13 @@
+- https://one.zoho.com/zohoone/zuperinc/home/cxapp/projects/portal/zuperinc#taskdetail/1832517000008685726/1832517000008676220/1832517000008880191
+	- Cannot change product description label 
+	- Cannot change product description input to dropdown
+	- Cannot listen to product description change
+	- Cannot set individual product data
+- https://one.zoho.com/zohoone/zuperinc/home/cxapp/projects/portal/zuperinc#taskdetail/1832517000008685726/1832517000008676220/1832517000008880163
+	- Cannot listen to add product modal open
+	- Cannot listen to add product button click event
+- https://one.zoho.com/zohoone/zuperinc/home/cxapp/projects/portal/zuperinc#taskdetail/1832517000008685726/1832517000008676220/1832517000008880171
+	- Cannot listen to add product modal open
+	- Cannot listen to add product button click event
+	- Cannot update the price and quantity in the add product modal
+	- A workaround was proposed using a scheduler sync of qty and price. But did not get confirmation to proceed with that method
