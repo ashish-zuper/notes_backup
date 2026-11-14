@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-11-11.md",
+                "file": "Custom Objects/2026-11-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-11-11"
+              "title": "2026-11-13"
             }
           }
         ]
@@ -209,10 +209,13 @@
   },
   "active": "571f9693b9731954",
   "lastOpenFiles": [
+    "Daily Logs/2026-11-14.md",
+    "Custom Objects/2026-11-11.md",
+    "Custom Objects/2026-11-13.md",
+    "Custom Objects",
     "Daily Logs/2026-11-12.md",
     "Daily Logs/2026-11-11.md",
     "Production POD/2026-11-02.md",
-    "2026-11-11.md",
     "Daily Logs/2026-11-06.md",
     "Daily Logs/2026-11-05.md",
     "Daily Logs/2026-11-04.md",
@@ -234,8 +237,6 @@
     "Daily Logs/2026-08-27.md",
     "Daily Logs/2026-08-25.md",
     "Daily Logs/2026-08-24.md",
-    "Daily Logs/2026-08-21.md",
-    "Daily Logs/2026-08-20.md",
     "Daily Logs/OneDrive_1_9-24-2026 2",
     "Daily Logs/OneDrive_1_9-24-2026",
     "Daily Logs/OneDrive_1_9-24-2026.zip",
@@ -245,7 +246,6 @@
     "Task Solutions",
     "Source/Pasted image 20240801113824.png",
     "Source",
-    "sdk",
     "Images/Pasted image 20251023180938.png",
     "Images/Pasted image 20251023180808.png",
     "Images/Pasted image 20250805150226.png",
